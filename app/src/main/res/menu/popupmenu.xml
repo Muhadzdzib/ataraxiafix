@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menueditprofil"
+        android:title="Edit Profil"
+        android:icon="@drawable/logosetting"
+        />
+
+
+    <item
+        android:id="@+id/menulogout"
+        android:title="Log Out"
+        android:icon="@drawable/logologout"/>
+
+    <item
+        android:id="@+id/menuubahpass"
+        android:title="Ubah Password"
+        android:icon="@drawable/logoubahpass"/>
+</menu>

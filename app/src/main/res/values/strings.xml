@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ataraxia</string>
+
+    <string name="register">dont have an account ? Register <a href="RegisterActivity.class">here</a></string>
+
+    <string-array name="jenis_kelamin">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+</resources>

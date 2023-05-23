@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ataraxia2"
+        tools:targetApi="31">
+        <activity
+            android:name=".Editprofil"
+            android:exported="false" />
+        <activity
+            android:name=".NotifikasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".diagnosapenyakit"
+            android:exported="false" />
+        <activity
+            android:name=".Fiturinputpengingatmakan"
+            android:exported="false" />
+        <activity
+            android:name=".PengingatmakanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Fiturrekomendasimakanan"
+            android:exported="false" />
+        <activity
+            android:name=".FiturolahragarumahanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiturolahragacardioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiturberatbadanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MakanannActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UbahpasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgetpasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OlahragaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EdukasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Halamanpertama"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".AlarmReceiver" />
+        <receiver android:name=".AlarmReceiver2" />
+        <receiver android:name=".AlarmReceiver3" />
+        <receiver android:name=".AlarmReceiver4" />
+    </application>
+
+</manifest>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item
+        android:id="@+id/makanan"
+        android:title="Makanan"
+        android:icon="@drawable/nvmakanan"
+        />
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/nvhome2"
+        />
+
+
+    <item
+        android:id="@+id/diagnosa"
+        android:title="Diagnosa"
+        android:icon="@drawable/nvdiagnosa"
+        />
+
+    <item
+        android:id="@+id/olahraga"
+        android:title="Olahraga"
+        android:icon="@drawable/nvolahraga"
+        />
+
+
+
+
+</menu>

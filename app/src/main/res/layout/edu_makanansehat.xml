@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="299dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lora"
+                    android:text="6 Makanan Sehat yang Perlu Dikonsumsi Setiap Hari"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <ImageButton
+                    android:id="@+id/btnclosems"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btnclose" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lora"
+                    android:text="1. Sayuran"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="354dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/lora"
+                    android:justificationMode="inter_word"
+                    android:text="Sayur-sayuran termasuk dalam jenis makanan sehat karena mengandung banyak nutrisi penting, seperti serat, vitamin A, vitamin C, vitamin K, magnesium, kalsium, zat besi, folat, dan kalium, yang sangat baik untuk kesehatan. Selain itu, sayuran juga kaya akan antioksidan yang dapat melindungi tubuh dari kerusakan akibat radikal bebas dan mengurangi berbagai risiko penyakit kronis, seperti penyakit jantung koroner, diabetes tipe 2, dan kanker."
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lora"
+                    android:text="2. Buah-buahan"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="356dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/lora"
+                    android:justificationMode="inter_word"
+                    android:text="Selain sayur, buah juga mengandung beragam nutrisi yang dibutuhkan tubuh, seperti serat, mineral, vitamin, dan antioksidan."
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lora"
+                    android:text="3. Daging dan telur"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="355dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/lora"
+                    android:justificationMode="inter_word"
+                    android:text="Daging merupakan salah satu makanan sehat karena kaya akan nutrisi. Daging sapi tanpa lemak dan dada ayam mengandung protein dan zat besi paling tinggi, bahkan kandungan lemaknya lebih rendah dibandingkan dengan jenis daging lainnya. Selain daging, telur juga termasuk dalam makanan sehat. Selain tinggi protein, telur juga mengandung nutrisi lengkap, mulai dari vitamin, mineral, lemak tak jenuh, hingga antioksidan."
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lora"
+                    android:text="4. Kacang-kacanagn dan biji-bijian"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="355dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/lora"
+                    android:justificationMode="inter_word"
+                    android:text="Makanan sehat yang sarat akan nutrisi berikutnya adalah kacang-kacangan dan biji-bijian. Contohnya adalah kacang tanah, kacang mete, kacang almond, chia seed, biji labu, dan biji wijen. Kacang-kacangan dan biji-bijian tersebut tidak hanya mengandung protein dan serat yang tinggi, tetapi juga kaya akan vitamin dan mineral seperti magnesium dan vitamin E."
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lora"
+                    android:text="5. Ikan dan makanan laut lainnya"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="355dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/lora"
+                    android:justificationMode="inter_word"
+                    android:text="Ikan dan makanan laut lainnya, seperti kerang dan udang, juga merupakan pilihan makanan sehat yang kaya akan asam lemak omega-3 dan yodium. Sebuah penelitian menunjukkan bahwa memenuhi asupan omega-3 bisa menurunkan risiko terkena berbagai penyakit, termasuk penyakit jantung, demensia, dan depresi. Beberapa jenis ikan dan makanan laut yang baik untuk dikonsumsi adalah ikan salmon, sarden, tuna, kerang, dan udang."
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lora"
+                    android:text="6. Susu dan produknya"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="355dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/lora"
+                    android:justificationMode="inter_word"
+                    android:text="Susu banyak mengandung vitamin, mineral, protein hewani, dan lemak baik. Selain itu, susu merupakan salah satu sumber kalsium terbaik. Untuk memperoleh nutrisi yang terdapat pada susu, Anda dapat mengonsumsinya secara langsung atau mengonsumsi produk olahannya, seperti keju dan yoghurt."
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

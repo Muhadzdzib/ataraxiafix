@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lora"
+                    android:text="5 Tips Menjaga Kesehatan"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+
+                <ImageButton
+                    android:id="@+id/btnclosemk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btnclose" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lora"
+                    android:text="1. Mengonsumsi Makanan Sehat"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="354dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/lora"
+                    android:justificationMode="inter_word"
+                    android:text="Tips menjaga kesehatan tubuh dipengaruhi dari apa yang Anda konsumsi setiap hari. Makanlah makanan yang memiliki kandungan karbohidrat (nasi merah, oat, quinoa, dan roti gandum), lemak sehat (alpukat, biji-bijian, aneka jenis ikan laut, dan ikan air tawar, dan kacang-kacangan), vitamin dan mineral (asparagus, brokoli, kale, kembang kol, mentimun, jamur, kubis, lobak, labu, paprika, terong, serta wortel), protein (daging tanpa lemak, produk olahan susu, susu, dan telur). Perlu juga mengonsumsi buah-buahan seperti anggur, apel, blueberry, jeruk, kiwi, lemon, mangga, nanas, pir, pisang, stroberi, dan lain-lan"
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lora"
+                    android:text="2. Berolahraga Rutin"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="356dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/lora"
+                    android:justificationMode="inter_word"
+                    android:text="Tips menjaga kesehatan juga harus diimbangi dengan olahraga yang rutin. Selain baik untuk kesehatan, olahraga membantu mencegah dan mengatasi beberapa penyakit, seperti diabetes, kanker osteoporosis, radang sendi, stroke, tekanan darah tinggi, hingga depresi. Disarankan untuk melakukan olahraga selama 20-30 menit setiap harinya."
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lora"
+                    android:text="3. Tidak Merokok dan Alkohol"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="355dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/lora"
+                    android:justificationMode="inter_word"
+                    android:text="Tidak atau berhenti merokok juga menjadi salah satu cara menjaga kesehatan tubuh. Kebiasaan merokok menjadi penyebab penyakit kardiovaskular, kanker, dan pernapasan. Cara berhenti merokok di antaranya olahraga rutin, menerapkan pola makan sehat, membersihkan rumah, dan cari hobi baru untuk mengalihkan ingatan pada rokok. Selain tidak merokok, hentikan pula kebiasaan mengonsumsi minuman alkohol karena minuman ini bisa memudahkan tubuh terkena infeksi bakteri dan virus karena kesehatan Anda semakin hari akan berkurang. Alkohol sendiri bisa memicu beberapa penyakit seperti ginjal, hati, sampai kanker."
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lora"
+                    android:text="4. Cukupi Waktu untuk Istirahat"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="355dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/lora"
+                    android:justificationMode="inter_word"
+                    android:text="Penting sekali untuk mencukupi waktu tidur setiap harinya untuk menjaga kesehatan tubuh. Alasannya, tidur yang cukup membantu memperbaiki sel-sel tubuh, membuat tubuh menjadi segar, mempertajam ingatan, dan meningkatkan suasana hati. Waktu tidur sebaiknya lakukan selama 7–8 jam dalam sehari."
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lora"
+                    android:text="5. Stres Perlu Dikelola"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="355dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/lora"
+                    android:justificationMode="inter_word"
+                    android:text="Stres yang dialami secara terus menerus bisa melemahkan imun tubuh, sehingga memicu Anda mudah terkena penyakit. Salah satu cara mengatur stres adalah dengan menjaga kesehatan tubuh. Ada banyak cara yang bisa dilakukan untuk membantu meminimalisir stres, seperti melakukan meditasi, olahraga, bercerita dengan orang terdekat dan yang dipercaya, dan melakukan aktivitas positif lainnya."
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
